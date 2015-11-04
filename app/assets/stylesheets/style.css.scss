@@ -14,7 +14,6 @@ body{
     background-color: #27ae60;
 }
 
-
 $nav-trans-color: background-color 0.2s linear;
 $nav-trans-text: color 0.2s linear;
 
@@ -152,7 +151,7 @@ $cat-trans-text: color 0.2s linear;
 }
 
 .portfolio{
-	height: 80vh;
+	height: auto;
     width: 100%;
 }
 

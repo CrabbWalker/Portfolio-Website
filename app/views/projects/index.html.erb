@@ -1,12 +1,18 @@
-<div id="project">
+<div id="project" class="transitions-enabled">
 <% @projects.each do |project| %>
     <div class="box panel panel-default">
-        <%= image_tag project.image.url(:medium) %>
+        <div class="panel-heading">
+            <div class="panel-title">
+                <%= project.title %>
+            </div>
+        </div>
+        <%= link_to image_tag(project.image.url(:medium)), project %>
+
         <div class="panel-body">
-            <%= project.title %>
-            <%= project.Sdescription %>
-            <%= project.btnName %>
-            <%= project.btnUrl %>
+            <p><%= project.Sdescription %></p>
+            
+            
+            <!--Only show these if signed in-->
             <%= link_to 'Show', project %>
             <%= link_to 'Edit', edit_project_path(project) %>
             <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>

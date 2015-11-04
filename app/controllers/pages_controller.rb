@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def WhateverYallSay
+    def home
+        @projects = Project.all
   end
 end
