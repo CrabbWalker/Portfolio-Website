@@ -11,14 +11,14 @@ h1, p, i, a{
 
 body{
     font-family: $roboto;
-    background-color: #27ae60;
+    background-color: #ecf0f1;
 }
 
 $nav-trans-color: background-color 0.2s linear;
 $nav-trans-text: color 0.2s linear;
 
 .navbar-default{
-    background-color: #27ae60;
+    background-color: #383a4c;
     border: none;
 	transition: $nav-trans-text, $nav-trans-color;
 }
@@ -35,7 +35,7 @@ $nav-trans-text: color 0.2s linear;
 }
 
 #navbar a{
-    background-color: #27ae60;
+    background-color: #383a4c;
 	transition: $nav-trans-text, $nav-trans-color;
     color: #ecf0f1;
 }
@@ -47,7 +47,7 @@ $nav-trans-text: color 0.2s linear;
 }
 
 .navbar-default .navbar-brand{
-    background-color: #27ae60;
+    background-color: #383a4c;
 	transition: $nav-trans-text, $nav-trans-color;
     color: #ecf0f1;
 }
@@ -61,7 +61,7 @@ $nav-trans-text: color 0.2s linear;
 .navbar-default .navbar-toggle{
     border-radius: 0px;
     border-color: #fff;
-    background-color: #ecf0f1;
+    background-color: #383a4c;
 	transition: $nav-trans-text, $nav-trans-color;
 }
 
@@ -78,7 +78,7 @@ $nav-trans-text: color 0.2s linear;
 }
 
 #title{
-	background: url("Noffy.jpg") no-repeat center center fixed;
+	background: url("Men1.jpg") no-repeat center center fixed;
 	min-height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -93,10 +93,16 @@ $nav-trans-text: color 0.2s linear;
 	margin-left: 55%;
     padding-top: 50vh;
     font-family: $roboto;
+    color: #2c3e50;
 }
 
-.title-text, h1{
+.title-text h1{
 	margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.title-text p{
+    color: #2c3e50;
 }
 
 @media (max-width: 768px) {
@@ -119,11 +125,11 @@ $cat-trans-text: color 0.2s linear;
 	font-family: $roboto;
 	font-size: 150%;
 	font-weight: 400;
-    background-color: #27ae60;
+    background-color: #383a4c
 }
 
 .port-nav a{
-	background-color: #27ae60;
+	background-color: #383a4c;
 	color: #ecf0f1;
 	padding-top: $cat-padding;
 	padding-bottom: $cat-padding;
@@ -160,7 +166,7 @@ $cat-trans-text: color 0.2s linear;
 }
 
 #about{
-    background-color: #27ae60;
+    background-color: #272936;
 }
 
 .container-fluid{
@@ -175,7 +181,7 @@ $cat-trans-text: color 0.2s linear;
 }
 
 #contact{
-    background-color: #27ae60;
+    background-color: #383a4c;
     height: auto;
 }
 
@@ -202,7 +208,7 @@ $c-padding: 50px;
 }
 
 .c-email > a{
-    background-color: #27ae60;
+    background-color: #383a4c;
 	transition: $cat-trans-text, $cat-trans-color;
     border-radius: 0px;
 }
@@ -210,7 +216,7 @@ $c-padding: 50px;
 .c-email .btn:focus{
     color: #fff;
     text-decoration: none;
-    background-color: #2ecc71;
+    background-color: #383a4c;
 	transition: $cat-trans-text, $cat-trans-color;
     border-radius: 0px;
 }
@@ -218,7 +224,7 @@ $c-padding: 50px;
 .c-email > a:hover{
     color: #fff;
     text-decoration: none;
-    background-color: #2ecc71;
+    background-color: #272936;
 	transition: $cat-trans-text, $cat-trans-color;
     border-radius: 0px;
 }

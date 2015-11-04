@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>My Super Awesome Portfolio Website</title>
+		<title>Darrell Wilson: Multmedia Developer </title>
 		<meta charset="utf-8"><!-- character set including all languages -->        
 	</head>
 	<body>
@@ -16,7 +16,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#topPage">My Portfolio</a>
+                  <a href="#topPage">
+                  	<%= image_tag("Logo-2.png", alt: "DwilProductions") %>
+                  </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">
@@ -37,10 +39,8 @@
 			<div class="container-fluid">
 				<div class="bg-img">
 					<div class="title-text">
-							<h1>My Name</h1>
-							<p>I am an amazing person. I do all sorts of cool things. I am the best.</p>
-							<p>You should hire me because of how precious I am.</p>
-							<p>Sooo precious...</p>
+							<h1>Darrell Wilson</h1>
+							<p>Web Designer by day. Multimedia Artist by night.</p>
 					</div>
 				</div>
 			</div>
@@ -50,10 +50,10 @@
 		<div id="portfolio" class="container-fluid">
 			<!-- Portfolio Stuff goes here -->
 			<div class="port-nav row text-center">
-				<a href="#portfolio" class="col-xs-3 cat" data-target="#pCarousel" data-slide-to="0">Graphic Design</a>
-				<a href="#portfolio" class="col-xs-3 cat" data-target="#pCarousel" data-slide-to="1">Web Dev</a>
-				<a href="#portfolio" class="col-xs-3 cat" data-target="#pCarousel" data-slide-to="2">3D Modeling</a>
-				<a href="#portfolio" class="col-xs-3 cat" data-target="#pCarousel" data-slide-to="3">Game Dev</a>
+				<a href="#portfolio" class="col-xs-3 cat" data-target="#pCarousel" data-slide-to="0">Animation</a>
+				<a href="#portfolio" class="col-xs-3 cat" data-target="#pCarousel" data-slide-to="1">Design</a>
+				<a href="#portfolio" class="col-xs-3 cat" data-target="#pCarousel" data-slide-to="2">Web Development</a>
+				<a href="#portfolio" class="col-xs-3 cat" data-target="#pCarousel" data-slide-to="3">Gallery</a>
 			</div>
           
 			<div class="portfolio">
@@ -67,26 +67,29 @@
 			<div class="about-container">
 					<div class="grid">
 						<figure class="effect-chico">
-						<img src="http://s3-us-west-2.amazonaws.com/confreaks-tv3/production/videos/images/000/001/549/Tom_Preston-original.png?1422315761" alt="twitter/blog/link">
+                            <%=image_tag("Shot6.jpg", alt: "My-Animation-picture")%>
 						<figcaption> 
 							<i class="fa-about fa fa-github fa-3x"></i>
-							<a href="#">View more</a>
+                            <p>See the code to my projects on GitHub!</p>
+							<a href="https://github.com/CrabbWalker" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
 					</div><div class="grid">
 						<figure class="effect-chico">
-						<img src="http://wallpapersglobe.net/download/20_Mark_Zuckerberg-1920x1080.jpg" alt="twitter/blog/link">
+                            <%=image_tag("Shot4.jpg", alt: "My-Animation-picture")%>
 						<figcaption>
-							<i class="fa-about fa fa-facebook-official fa-2x"></i>
-							<a href="#">View more</a>
+							<i class="fa-about fa fa-bold fa-2x"></i>
+                            <p>Keep up-to-date on my latest animations!</p>
+							<a href="http://creatingnami.blogspot.com/" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
 					</div><div class="grid">
 						<figure class="effect-chico">
-						<img src="https://wallpaperscraft.com/image/jack_dorsey_twitter_programmer_104911_1920x1080.jpg" alt="twitter/blog/link">
+                            <%=image_tag("Shot2.jpg", alt: "My-Animation-picture")%>
 						<figcaption>
 							<i class="fa-about fa fa-twitter fa-3x"></i>
-							<a href="#">View more</a>
+                            <p>Thoughts on mostly what I'm thinking...today</p>
+							<a href="https://twitter.com/CrabbWalker" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
 					</div>
@@ -103,12 +106,12 @@
                             <div class="c-border"></div>
                         </div>
                         <div class="c-email">
-                            <a class="btn btn-lg" href="mailto:myAddress@email.com" target="_blank"><h4>myAddress@email.com</h4></a>
+                            <a class="btn btn-lg" href="mailto:darjr1991@hotmail.com" target="_blank"><h4>darjr1991@hotmail.com</h4></a>
                         </div>       
                         <div class="c-bottom">
-                            <a href="#" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                            <a href="https://www.facebook.com/Nami-The-Animated-Series-493577330748173/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+                            <a href="https://www.youtube.com/user/CrabbWalker" target="_blank"><i class="fa fa-youtube-play fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/profile/view?id=AAMAAA6ce9oBPeyX7f7jOMIpM-dy9AB_wG2zsiA&trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
