@@ -54335,3 +54335,89 @@ Completed 200 OK in 348ms (Views: 347.0ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/assets/Noffy.jpg" for ::1 at 2015-11-04 00:21:22 -0500
+
+
+Started GET "/projects/1" for ::1 at 2015-11-04 02:28:32 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProject Load (37.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/show.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 1054ms (Views: 946.3ms | ActiveRecord: 37.2ms)
+
+
+Started GET "/projects/1" for ::1 at 2015-11-04 02:53:37 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (31.5ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1171ms (Views: 1138.0ms | ActiveRecord: 31.5ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-04 02:53:38 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-04 02:53:38 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-04 02:53:38 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-04 02:53:38 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-04 02:53:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-04 02:53:38 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-04 02:53:38 -0500
+
+
+Started GET "/assets/style.self-e085090d766e1ba08b66cf29008da43ea0629f35ca0baa824f2677faad57c683.css?body=1" for ::1 at 2015-11-04 02:53:38 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/projects.self-a5c7c1a9a17689f21bd22c7b63998a8f143b8630f9848f4e3df6f70c55796328.css?body=1" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-04 02:53:39 -0500
+
+
+Started GET "/" for ::1 at 2015-11-04 02:53:43 -0500
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (11.6ms)
+  Rendered pages/_portfolio.html.erb (51.4ms)
+  Rendered pages/home.html.erb within layouts/application (92.7ms)
+Completed 200 OK in 840ms (Views: 678.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/Noffy.jpg" for ::1 at 2015-11-04 02:53:44 -0500
