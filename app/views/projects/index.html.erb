@@ -11,11 +11,16 @@
         <div class="panel-body">
             <p><%= project.Sdescription %></p>
             
-            
-            <!--Only show these if signed in-->
-            <%= link_to 'Show', project %>
-            <%= link_to 'Edit', edit_project_path(project) %>
-            <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
+            <% if user_signed_in? %>
+                <%= link_to 'Show', project %>
+                <%= link_to 'Edit', edit_project_path(project) %>
+                <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
+                <%= link_to 'New Project', new_project_path %>
+            <% else %>
+
+                <%= link_to 'Show', project %>
+
+            <% end %>
         </div>
     </div>
     <% end %>
@@ -23,4 +28,3 @@
 
 <br>
 
-<%= link_to 'New Project', new_project_path %>

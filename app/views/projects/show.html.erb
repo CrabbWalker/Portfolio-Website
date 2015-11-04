@@ -1,28 +1,17 @@
+<a href="/" class="back text-center"><i class="fa fa-arrow-left fa-2x arrow-center"></i></a>
+
 <p id="notice"><%= notice %></p>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<div id="pShow" class="jumbotron">
     <div class="container">
-       	<div class="navbar-header">
-			<%= link_to projects_path do %>
-				<a href="#"><i class="fa fa-arrow-left fa-2x"></i></a>
-			<% end %>
-		</div>
-	</div>
-</nav>
-<div class="p-container">
-	<div class="p-center">
-		<h1 class="padz">
-  			<%= @project.title %>
-		</h1>
+		<h1 class="text-center"><%= @project.title %></h1>
 
-		<%= image_tag @project.image.url, class: "img-responsive" %>
+        <%= image_tag @project.image.url, class: "img-responsive p-img" %>
 
-		<p class="padz">
-  			<%= @project.Ldescription %>
-		</p>
-		<hr>
-		<div class="padz">
-  			<a href="<%= @project.btnUrl %>" class="btn btn-primary" target="_blank"><%= @project.btnName %></a>
+		<p><%= @project.Ldescription %></p>
+        
+		<div class="pButton text-center">
+  			<a href="<%= @project.btnUrl %>" class="btn btn-lg" target="_blank"><%= @project.btnName %></a>
   		</div>
-	</div>
+    </div>
 </div>
