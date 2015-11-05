@@ -90,19 +90,19 @@ $nav-trans-text: color 0.2s linear;
 .title-text{
 	position: absolute;
 	width: 40%;
-	margin-left: 55%;
-    padding-top: 50vh;
-    font-family: $roboto;
-    color: #ffffff;
+	margin-left: 70%;
+    padding-top: 35vh;
 }
 
 .title-text h1{
 	margin-bottom: 20px;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .title-text p{
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -224,7 +224,7 @@ $c-padding: 50px;
 .c-email > a:hover{
     color: #fff;
     text-decoration: none;
-    background-color: #272936;
+    background-color: #00BFFF;
 	transition: $cat-trans-text, $cat-trans-color;
     border-radius: 0px;
 }
@@ -240,4 +240,9 @@ $c-padding: 50px;
     padding: 10px;
     color: #fff;
 	transition: $cat-trans-text, $cat-trans-color;
+}
+
+.copyright {
+    text-align: center;
+    color: #272936;
 }
