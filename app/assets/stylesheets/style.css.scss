@@ -41,7 +41,7 @@ $nav-trans-text: color 0.2s linear;
 }
 
 #navbar a:hover{
-    background-color: #2ecc71;
+    background-color: #00BFFF;
 	transition: $nav-trans-text, $nav-trans-color;
     color: #fff;
 }
@@ -93,16 +93,16 @@ $nav-trans-text: color 0.2s linear;
 	margin-left: 55%;
     padding-top: 50vh;
     font-family: $roboto;
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 .title-text h1{
 	margin-bottom: 20px;
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 .title-text p{
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -140,7 +140,7 @@ $cat-trans-text: color 0.2s linear;
 .port-nav a:hover,
 .port-nav a:active,
 .port-nav a:focus{
-	background-color: #2ecc71;
+	background-color: #00BFFF;
 	color: #fff;
 	padding-top: $cat-padding;
 	padding-bottom: $cat-padding;
