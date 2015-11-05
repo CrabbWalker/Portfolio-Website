@@ -12,14 +12,10 @@
             <p><%= project.Sdescription %></p>
             
             <% if user_signed_in? %>
-                <%= link_to 'Show', project %>
-                <%= link_to 'Edit', edit_project_path(project) %>
-                <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
-                <%= link_to 'New Project', new_project_path %>
-            <% else %>
-
-                <%= link_to 'Show', project %>
-
+                <%= link_to 'Show', project, :class => "linkpacity" %>
+                <%= link_to 'Edit', edit_project_path(project), :class => "linkpacity" %>
+                <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' }, :class => "linkpacity" %>
+                <%= link_to 'New Project', new_project_path, :class => "linkpacity" %>
             <% end %>
         </div>
     </div>

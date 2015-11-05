@@ -58219,3 +58219,703 @@ Started GET "/assets/bgLight.jpg" for 127.0.0.1 at 2015-11-04 00:54:45 -0500
 
 Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for 127.0.0.1 at 2015-11-04 00:54:45 -0500
 >>>>>>> 17b95bb904d38f216ac50e35f62abf1dea6267f7
+
+
+Started GET "/" for ::1 at 2015-11-05 12:58:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (22.6ms)
+  Rendered pages/_portfolio.html.erb (79.5ms)
+  Rendered pages/home.html.erb within layouts/application (601.9ms)
+Completed 200 OK in 2267ms (Views: 2220.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 12:58:20 -0500
+
+
+Started GET "/" for ::1 at 2015-11-05 13:12:25 -0500
+Processing by PagesController#home as HTML
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (6.6ms)
+  Rendered pages/_portfolio.html.erb (16.7ms)
+  Rendered pages/home.html.erb within layouts/application (120.1ms)
+Completed 200 OK in 1035ms (Views: 1032.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/style.self-291e1dc8ddef1b66e55c32c6cc1b942543f2fd5194926e386711337ea33e1616.css?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-05 13:12:26 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-05 13:12:27 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-05 13:12:27 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:12:27 -0500
+
+
+Started GET "/users/sign_in" for ::1 at 2015-11-05 13:13:10 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (240.3ms)
+Completed 200 OK in 577ms (Views: 533.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-11-05 13:13:15 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oib/w4OHw2OD6Uk9D/JMe8IdrqIwRsjvhI8FfVH5nxdBn2UtSCrQxdY7HEFd/3Y5H5Ot9D+kSyN8Sgt+bau7Gg==", "user"=>{"email"=>"darjr1991@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (32.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "darjr1991@hotmail.com"]]
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-11-05 02:41:34.002803"], ["current_sign_in_at", "2015-11-05 18:13:16.020438"], ["sign_in_count", 21], ["updated_at", "2015-11-05 18:13:16.022869"], ["id", 1]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 578ms (ActiveRecord: 35.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-05 13:13:16 -0500
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (5.0ms)
+  Rendered pages/_portfolio.html.erb (6.9ms)
+  Rendered pages/home.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 251ms (Views: 248.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:13:16 -0500
+
+
+Started GET "/users/sign_in" for ::1 at 2015-11-05 13:17:09 -0500
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:17:10 -0500
+
+
+Started GET "/" for ::1 at 2015-11-05 13:24:25 -0500
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Load (0.8ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (16.6ms)
+  Rendered pages/_portfolio.html.erb (19.7ms)
+  Rendered pages/home.html.erb within layouts/application (108.0ms)
+Completed 200 OK in 1106ms (Views: 1095.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/style.self-fb464387fd2ab80065ae71244ef8ad613da36396ba8dc7db2eb5af597eb48325.css?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-05 13:24:26 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-05 13:24:27 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:24:27 -0500
+
+
+Started GET "/" for ::1 at 2015-11-05 13:24:45 -0500
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (4.9ms)
+  Rendered pages/_portfolio.html.erb (6.8ms)
+  Rendered pages/home.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 429ms (Views: 427.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-05 13:24:45 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-05 13:24:45 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-05 13:24:45 -0500
+
+
+Started GET "/assets/style.self-0dbf528793d3457c320b2e01e72aeea4629583089d000cbe56492651ff0d6bb5.css?body=1" for ::1 at 2015-11-05 13:24:45 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-05 13:24:45 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-05 13:24:45 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-05 13:24:45 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-05 13:24:45 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-05 13:24:46 -0500
+
+
+Started GET "/" for ::1 at 2015-11-05 13:25:15 -0500
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (5.5ms)
+  Rendered pages/_portfolio.html.erb (8.1ms)
+  Rendered pages/home.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 270ms (Views: 268.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-05 13:25:15 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/style.self-0dbf528793d3457c320b2e01e72aeea4629583089d000cbe56492651ff0d6bb5.css?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:25:16 -0500
+
+
+Started GET "/projects/3" for ::1 at 2015-11-05 13:25:28 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered projects/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 361ms (Views: 276.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-05 13:28:31 -0500
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (1.6ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (7.3ms)
+  Rendered pages/_portfolio.html.erb (10.6ms)
+  Rendered pages/home.html.erb within layouts/application (39.7ms)
+Completed 200 OK in 310ms (Views: 307.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-05 13:31:04 -0500
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (6.0ms)
+  Rendered pages/_portfolio.html.erb (37.2ms)
+  Rendered pages/home.html.erb within layouts/application (138.1ms)
+Completed 200 OK in 647ms (Views: 645.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/style.self-0dbf528793d3457c320b2e01e72aeea4629583089d000cbe56492651ff0d6bb5.css?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:31:05 -0500
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-11-05 13:31:14 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yBKVQpZxNEyjMn701UoytxedYuz5JsPrRU8SRBJBeIpVHD5Xb8W0/dVoOuliVqHPrv6ON3HAXIF21fyGvFP2zg=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 52ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-05 13:31:14 -0500
+Processing by PagesController#home as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (5.8ms)
+  Rendered pages/_portfolio.html.erb (7.8ms)
+  Rendered pages/home.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 283ms (Views: 281.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:31:15 -0500
+
+
+Started GET "/projects/4" for ::1 at 2015-11-05 13:31:22 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered projects/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 250ms (Views: 248.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-05 13:31:26 -0500
+Processing by PagesController#home as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (4.8ms)
+  Rendered pages/_portfolio.html.erb (7.7ms)
+  Rendered pages/home.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 284ms (Views: 283.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/projects/3" for ::1 at 2015-11-05 13:31:29 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered projects/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 243ms (Views: 241.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-05 13:31:41 -0500
+Processing by PagesController#home as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (4.5ms)
+  Rendered pages/_portfolio.html.erb (7.7ms)
+  Rendered pages/home.html.erb within layouts/application (36.1ms)
+Completed 200 OK in 367ms (Views: 365.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-05 13:34:59 -0500
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (3.5ms)
+  Rendered pages/_portfolio.html.erb (5.4ms)
+  Rendered pages/home.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 273ms (Views: 271.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/style.self-0dbf528793d3457c320b2e01e72aeea4629583089d000cbe56492651ff0d6bb5.css?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:34:59 -0500
+
+
+Started GET "/" for ::1 at 2015-11-05 13:38:35 -0500
+Processing by PagesController#home as HTML
+  [1m[36mProject Load (1.9ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (30.1ms)
+  Rendered pages/_portfolio.html.erb (55.3ms)
+  Rendered pages/home.html.erb within layouts/application (259.1ms)
+Completed 200 OK in 1521ms (Views: 1509.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/style.self-c1daf72d67ffde584983d081d4c29eb21bf227af9bc01da95854a8e37f1d3b60.css?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-05 13:38:37 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-05 13:38:38 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-05 13:38:38 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-05 13:38:38 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-05 13:38:38 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-05 13:38:38 -0500

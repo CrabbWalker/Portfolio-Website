@@ -89,7 +89,6 @@ $nav-trans-text: color 0.2s linear;
 
 .title-text{
 	position: absolute;
-	width: 40%;
 	margin-left: 70%;
     padding-top: 35vh;
 }
@@ -245,4 +244,26 @@ $c-padding: 50px;
 .copyright {
     text-align: center;
     color: #272936;
+}
+
+.panel {
+    background-color: #383A4C;
+}
+
+.panel-default {
+    border-top-color: #fff;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.panel-heading {
+
+}
+
+.panel-body p{
+    color: #fff;
+}
+
+.linkpacity {
+    opacity: 0.2;
 }
