@@ -10,7 +10,7 @@
 
         <div class="panel-body">
             <p><%= project.Sdescription %></p>
-            
+
             <% if user_signed_in? %>
                 <%= link_to 'Show', project, :class => "linkpacity" %>
                 <%= link_to 'Edit', edit_project_path(project), :class => "linkpacity" %>
