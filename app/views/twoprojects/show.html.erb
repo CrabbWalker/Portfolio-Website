@@ -1,0 +1,17 @@
+<a href="/" class="back text-center"><i class="fa fa-arrow-left fa-2x arrow-center"></i></a>
+
+<p id="notice"><%= notice %></p>
+
+<div id="pShow" class="jumbotron">
+    <div class="container">
+		<h1 class="text-center"><%= @twoproject.title %></h1>
+
+        <%= image_tag @twoproject.image.url, class: "img-responsive p-img" %>
+
+		<p><%= @twoproject.Ldescription %></p>
+        
+		<div class="pButton text-center">
+  			<a href="<%= @twoproject.btnUrl %>" class="btn btn-lg" target="_blank"><%= @twoproject.btnName %></a>
+  		</div>
+    </div>
+</div>

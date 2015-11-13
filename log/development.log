@@ -63814,3 +63814,2677 @@ Processing by PagesController#home as HTML
   Rendered pages/_portfolio.html.erb (30.0ms)
   Rendered pages/home.html.erb within layouts/application (45.3ms)
 Completed 200 OK in 374ms (Views: 373.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-12 03:14:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (168.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (142.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (331.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTwoprojects (20151112080552)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "twoprojects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151112080552"]]
+  [1m[36m (23.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for ::1 at 2015-11-12 03:14:26 -0500
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (15.7ms)
+  [1m[36mTwoproject Load (0.2ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (2.2ms)
+  Rendered projects/index.html.erb (1.6ms)
+  Rendered projects/index.html.erb (1.4ms)
+  Rendered pages/_portfolio.html.erb (85.3ms)
+  Rendered pages/home.html.erb within layouts/application (139.1ms)
+Completed 200 OK in 959ms (Views: 942.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 03:14:27 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 03:14:28 -0500
+
+
+Started GET "/projects/9" for ::1 at 2015-11-12 03:14:31 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mProject Load (0.3ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered projects/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 249ms (Views: 246.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-12 03:14:36 -0500
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (3.1ms)
+  [1m[36mTwoproject Load (0.2ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (1.6ms)
+  Rendered projects/index.html.erb (2.1ms)
+  Rendered projects/index.html.erb (1.5ms)
+  Rendered pages/_portfolio.html.erb (21.1ms)
+  Rendered pages/home.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 281ms (Views: 279.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/projects/new" for ::1 at 2015-11-12 03:14:45 -0500
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (4.2ms)
+  Rendered projects/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 275ms (Views: 273.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects2" for ::1 at 2015-11-12 03:14:51 -0500
+
+ActionController::RoutingError (No route matches [GET] "/projects2"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (192.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (133.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (300.2ms)
+
+
+Started GET "/twoprojects" for ::1 at 2015-11-12 03:15:00 -0500
+Processing by TwoprojectsController#index as HTML
+  [1m[35mTwoproject Load (0.2ms)[0m  SELECT "twoprojects".* FROM "twoprojects"
+  Rendered twoprojects/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 222ms (Views: 220.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:15:10 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (21.2ms)
+  Rendered twoprojects/new.html.erb within layouts/application (64.4ms)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c1bde5e8>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110566494320'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110566494320'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (150.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (144.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (12.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (352.3ms)
+
+
+Started GET "/projects/new" for ::1 at 2015-11-12 03:17:11 -0500
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (4.0ms)
+  Rendered projects/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 404ms (Views: 403.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:17:16 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (5.6ms)
+  Rendered twoprojects/new.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c4658b48>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110566494320'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110566494320'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (115.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (269.4ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:17:58 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (7.7ms)
+  Rendered twoprojects/new.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c5e045a8>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110558338900'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110558338900'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (144.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (114.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (256.1ms)
+
+
+Started GET "/twoprojects/" for ::1 at 2015-11-12 03:21:14 -0500
+Processing by TwoprojectsController#index as HTML
+  [1m[36mTwoproject Load (0.2ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 241ms (Views: 239.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/twoprojects/show" for ::1 at 2015-11-12 03:21:18 -0500
+Processing by TwoprojectsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[35mTwoproject Load (0.3ms)[0m  SELECT  "twoprojects".* FROM "twoprojects" WHERE "twoprojects"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Twoproject with 'id'=show):
+  app/controllers/twoprojects_controller.rb:67:in `set_twoproject'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (130.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (116.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (267.4ms)
+
+
+Started GET "/projects/show" for ::1 at 2015-11-12 03:21:29 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 56ms (ActiveRecord: 0.8ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Project with 'id'=show):
+  app/controllers/projects_controller.rb:67:in `set_project'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (127.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (117.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (255.9ms)
+
+
+Started GET "/projects" for ::1 at 2015-11-12 03:21:33 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered projects/index.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 266ms (Views: 263.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/projects/new" for ::1 at 2015-11-12 03:21:39 -0500
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (5.2ms)
+  Rendered projects/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 225ms (Views: 223.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:22:56 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (5.9ms)
+  Rendered twoprojects/new.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c24b5400>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110558338900'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110558338900'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (138.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (113.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (261.0ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:22:59 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (5.6ms)
+  Rendered twoprojects/new.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c809ff90>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110558338900'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110558338900'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (108.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (245.6ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:27:41 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/new.html.erb within layouts/application (38.6ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial twoprojects/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/CrabbWalker/Desktop/Portfolio-Website/app/views"
+  * "/Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/devise-3.5.2/app/views"
+):
+    2: 
+    3: <h1>New Twoproject</h1>
+    4: 
+    5: <%= render 'form' %>
+    6: 
+    7: <%= link_to 'Back', twoprojects_path %>
+    8: 
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (117.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (255.8ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:28:03 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/new.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial twoprojects/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/CrabbWalker/Desktop/Portfolio-Website/app/views"
+  * "/Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/devise-3.5.2/app/views"
+):
+    2: 
+    3: <h1>New Twoproject</h1>
+    4: 
+    5: <%= render 'form' %>
+    6: 
+    7: <%= link_to 'Back', twoprojects_path %>
+    8: 
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (144.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (116.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (286.9ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:30:06 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (6.6ms)
+  Rendered twoprojects/new.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c808a708>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110558355200'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110558355200'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (139.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (112.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (252.0ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:30:49 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (6.7ms)
+  Rendered twoprojects/new.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `Sdescription' for #<Twoproject:0x007f87c5f20338>):
+    18: 
+    19:   <div class="form-group">
+    20:     <%= f.label :Sdescription %><br>
+    21:     <%= f.text_field :Sdescription, class: "form-control" %>
+    22:   </div>
+    23:   <div class="form-group">
+    24:       <%= f.label :Ldescription %><br>
+  app/views/twoprojects/_form.html.erb:21:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110556918220'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110556918220'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (142.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (113.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (260.6ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:31:59 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (0.4ms)
+  Rendered twoprojects/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 394ms (Views: 393.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 03:31:59 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 03:31:59 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 03:31:59 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 03:31:59 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 03:32:00 -0500
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:32:25 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (7.7ms)
+  Rendered twoprojects/new.html.erb within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c5c41c98>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110566104700'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110566104700'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (135.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (116.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (261.6ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:33:23 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (2.2ms)
+  Rendered twoprojects/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 237ms (Views: 236.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 03:33:23 -0500
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:34:25 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (21.7ms)
+  Rendered twoprojects/new.html.erb within layouts/application (23.6ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c20fc9f8>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110566751380'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110566751380'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (158.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (115.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (259.1ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:35:38 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (6.6ms)
+  Rendered twoprojects/new.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c5f355a8>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_area :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110565395840'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110565395840'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (149.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (110.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (255.5ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:40:26 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (9.2ms)
+  Rendered twoprojects/new.html.erb within layouts/application (40.5ms)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c6d5db80>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110567569680'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110567569680'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (155.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (134.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (304.9ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:43:35 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (5.4ms)
+  Rendered twoprojects/new.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c6ced240>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110567569680'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110567569680'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (117.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (259.2ms)
+
+
+Started POST "/twoprojects/console/repl_sessions/214cb26f5465530023b25fce0f66c677/trace" for ::1 at 2015-11-12 03:44:16 -0500
+
+
+Started POST "/twoprojects/console/repl_sessions/214cb26f5465530023b25fce0f66c677/trace" for ::1 at 2015-11-12 03:44:41 -0500
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:50:28 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (8.2ms)
+  Rendered twoprojects/new.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `btnUrl' for #<Twoproject:0x007f87c5988b50>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :btnUrl %><br>
+    20:     <%= f.url_field :btnUrl, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.submit class: "btn btn-primary" %>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110556149120'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110556149120'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (148.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (142.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (296.3ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:50:47 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (2.4ms)
+  Rendered twoprojects/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 670ms (Views: 669.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 03:50:48 -0500
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 03:53:52 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (8.4ms)
+  Rendered twoprojects/new.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (undefined method `twotitle' for #<Twoproject:0x007f87c6f2b2a0>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :twotitle %><br>
+    20:     <%= f.text_field :twotitle, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :twoSdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110567386020'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110567386020'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (148.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (114.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (255.3ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:03:25 -0500
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (34.0ms)
+  Rendered twoprojects/new.html.erb within layouts/application (35.9ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `twotitle' for #<Twoproject:0x007f87c5d172a8>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :twotitle %><br>
+    20:     <%= f.text_field :twotitle, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :twoSdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110567386020'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110567386020'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (145.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (113.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (257.4ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:04:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (7.4ms)
+  Rendered twoprojects/new.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c6f3b060>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110559290780'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110559290780'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (107.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (255.4ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:06:00 -0500
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (7.2ms)
+  Rendered twoprojects/new.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c6f80cf0>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110558451960'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110558451960'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (133.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (111.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (249.8ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:08:33 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (5.9ms)
+  Rendered twoprojects/new.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c99db450>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110558451960'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110558451960'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (145.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (114.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (258.0ms)
+
+
+Started GET "/twoprojects/form" for ::1 at 2015-11-12 04:08:45 -0500
+Processing by TwoprojectsController#show as HTML
+  Parameters: {"id"=>"form"}
+  [1m[36mTwoproject Load (0.8ms)[0m  [1mSELECT  "twoprojects".* FROM "twoprojects" WHERE "twoprojects"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 4ms (ActiveRecord: 0.8ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Twoproject with 'id'=form):
+  app/controllers/twoprojects_controller.rb:67:in `set_twoproject'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (127.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (118.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (254.6ms)
+
+
+Started GET "/projects/form" for ::1 at 2015-11-12 04:08:53 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"form"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 9ms (ActiveRecord: 0.6ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Project with 'id'=form):
+  app/controllers/projects_controller.rb:67:in `set_project'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (116.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (258.2ms)
+
+
+Started GET "/twoprojects/index" for ::1 at 2015-11-12 04:09:03 -0500
+Processing by TwoprojectsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mTwoproject Load (0.6ms)[0m  [1mSELECT  "twoprojects".* FROM "twoprojects" WHERE "twoprojects"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.6ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Twoproject with 'id'=index):
+  app/controllers/twoprojects_controller.rb:67:in `set_twoproject'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (135.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (111.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (249.6ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:09:12 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (5.4ms)
+  Rendered twoprojects/new.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c6e10af0>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110558451960'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110558451960'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (138.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (118.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (255.6ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:12:00 -0500
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (7.5ms)
+  Rendered twoprojects/new.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c4141718>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110567602380'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110567602380'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (118.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (257.2ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:19:05 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (4.7ms)
+  Rendered twoprojects/new.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c8e801f0>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110567602380'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110567602380'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (112.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (262.2ms)
+
+
+Started GET "/projects/new" for ::1 at 2015-11-12 04:19:19 -0500
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (6.0ms)
+  Rendered projects/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 365ms (Views: 348.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/new" for ::1 at 2015-11-12 04:21:50 -0500
+
+NoMethodError (undefined method `rescoures' for #<ActionDispatch::Routing::Mapper:0x007f87c697efc8>):
+  config/routes.rb:4:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (143.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (131.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (277.1ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:22:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/twoprojects/new"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (194.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (134.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (315.3ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:22:17 -0500
+
+NoMethodError (undefined method `rescoures' for #<ActionDispatch::Routing::Mapper:0x007f87c86d5f68>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (113.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (262.0ms)
+
+
+Started GET "/projects/new" for ::1 at 2015-11-12 04:22:47 -0500
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (5.1ms)
+  Rendered projects/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 369ms (Views: 353.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 04:22:48 -0500
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:22:53 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (6.5ms)
+  Rendered twoprojects/new.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c6ad0ea8>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110567602380'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110567602380'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (136.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (116.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (256.6ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:25:05 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (3.4ms)
+  Rendered twoprojects/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 277ms (Views: 236.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 04:25:06 -0500
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:26:07 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (7.1ms)
+  Rendered twoprojects/new.html.erb within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c5f931a8>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110566085640'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110566085640'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (138.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (108.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (244.9ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:28:18 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (4.4ms)
+  Rendered twoprojects/new.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @project, html: { multipart: true } do |f| %>
+    2:   <% if @twoproject.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@twoproject.errors.count, "error") %> prohibited this project from being saved:</h2>
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110576725820'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (133.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (108.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (241.0ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 04:29:25 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (8.9ms)
+  Rendered twoprojects/new.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for #<Twoproject:0x007f87c8e93048>):
+    17:   </div>
+    18:   <div class="form-group">
+    19:     <%= f.label :title %><br>
+    20:     <%= f.text_field :title, class: "form-control" %>
+    21:   </div>
+    22:   <div class="form-group">
+    23:     <%= f.label :Sdescription %><br>
+  app/views/twoprojects/_form.html.erb:20:in `block in _app_views_twoprojects__form_html_erb__3639296750607676236_70110583981220'
+  app/views/twoprojects/_form.html.erb:1:in `_app_views_twoprojects__form_html_erb__3639296750607676236_70110583981220'
+  app/views/twoprojects/new.html.erb:5:in `_app_views_twoprojects_new_html_erb__1144365485559125363_70110567285640'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (119.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (267.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateTwoprojects (20151112080552)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (7.8ms)[0m  DROP TABLE "twoprojects"
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20151112080552"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTwoprojects (20151112080552)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "twoprojects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "Sdescription" varchar, "Ldescription" varchar, "btnName" varchar, "btnUrl" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151112080552"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 05:26:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (7.2ms)
+  Rendered twoprojects/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 490ms (Views: 462.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 05:26:47 -0500
+
+
+Started POST "/twoprojects" for ::1 at 2015-11-12 05:28:27 -0500
+Processing by TwoprojectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q/jC2J09D3BcDT8aAOJ2rol7JpyUdfXnGumhdbUsjgXLKlydRmcqAZo1Akp++pPqjQYTqUIlZaHxhwRH/LiplA==", "twoproject"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f87c89780e0 @tempfile=#<Tempfile:/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/RackMultipart20151112-745-x67qcg.jpg>, @original_filename="Buddy.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"twoproject[image]\"; filename=\"Buddy.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"Design", "Sdescription"=>"Spiffy", "Ldescription"=>"Lorem Ispum afkjslkdfnsdlknsld", "btnName"=>"Something", "btnUrl"=>"https://www.google.com"}, "commit"=>"Create Twoproject"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+Paperclip::Error (Twoproject model missing required attr_accessor for 'image_file_name'):
+  app/controllers/twoprojects_controller.rb:27:in `create'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.2ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007f87c22fd900 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007f87c22fd590 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007f87c22f6e70 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/twoprojects" for ::1 at 2015-11-12 05:30:54 -0500
+Processing by TwoprojectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q/jC2J09D3BcDT8aAOJ2rol7JpyUdfXnGumhdbUsjgXLKlydRmcqAZo1Akp++pPqjQYTqUIlZaHxhwRH/LiplA==", "twoproject"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f87c8062438 @tempfile=#<Tempfile:/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/RackMultipart20151112-745-1gqvbnm.jpg>, @original_filename="Buddy.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"twoproject[image]\"; filename=\"Buddy.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"Design", "Sdescription"=>"Spiffy", "Ldescription"=>"Lorem Ispum afkjslkdfnsdlknsld", "btnName"=>"Something", "btnUrl"=>"https://www.google.com"}, "commit"=>"Create Twoproject"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+Paperclip::Error (Twoproject model missing required attr_accessor for 'image_file_name'):
+  app/controllers/twoprojects_controller.rb:27:in `create'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (146.6ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007f87c22fd900 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007f87c22fd590 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007f87c22f6e70 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 05:31:07 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (4.5ms)
+  Rendered twoprojects/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 247ms (Views: 246.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/twoprojects" for ::1 at 2015-11-12 05:31:21 -0500
+Processing by TwoprojectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yI+yoqXwUBUhQYoYbvqv9BJPibksK0o2I0kqfXuX+IxAXSznfqp1ZOd5t0gQ4kqwFjK8jPp72nDIJ49PMgPfHQ==", "twoproject"=>{"title"=>"dfgddfg", "Sdescription"=>"dfgf", "Ldescription"=>"dfgdfg", "btnName"=>"dfgdf", "btnUrl"=>"https://www.google.com"}, "commit"=>"Create Twoproject"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `image_content_type' for #<Twoproject:0x007f87c9b33528>):
+  app/controllers/twoprojects_controller.rb:30:in `block in create'
+  app/controllers/twoprojects_controller.rb:29:in `create'
+
+
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/CrabbWalker/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.2ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007f87c22fd900 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007f87c22fd590 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007f87c22f6e70 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/projects/new" for ::1 at 2015-11-12 05:32:23 -0500
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (6.2ms)
+  Rendered projects/new.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 333ms (Views: 288.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 05:32:30 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (4.2ms)
+  Rendered twoprojects/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 243ms (Views: 241.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-12 05:34:30 -0500
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (4.4ms)
+  [1m[35mTwoproject Load (0.3ms)[0m  SELECT "twoprojects".* FROM "twoprojects"
+  Rendered twoprojects/index.html.erb (1.1ms)
+  Rendered projects/index.html.erb (1.9ms)
+  Rendered projects/index.html.erb (1.7ms)
+  Rendered pages/_portfolio.html.erb (38.7ms)
+  Rendered pages/home.html.erb within layouts/application (133.8ms)
+Completed 200 OK in 377ms (Views: 374.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 05:34:31 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-12 05:34:31 -0500
+
+
+Started GET "/" for ::1 at 2015-11-12 12:13:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.4ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (19.5ms)
+  [1m[36mTwoproject Load (0.3ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (3.4ms)
+  Rendered projects/index.html.erb (1.6ms)
+  Rendered projects/index.html.erb (1.1ms)
+  Rendered pages/_portfolio.html.erb (162.7ms)
+  Rendered pages/home.html.erb within layouts/application (1962.7ms)
+Completed 200 OK in 8572ms (Views: 8224.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 12:13:43 -0500
+
+
+Started GET "/" for ::1 at 2015-11-12 12:45:30 -0500
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (3.1ms)
+  [1m[36mTwoproject Load (0.2ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (1.3ms)
+  Rendered projects/index.html.erb (1.7ms)
+  Rendered projects/index.html.erb (1.4ms)
+  Rendered pages/_portfolio.html.erb (16.3ms)
+  Rendered pages/home.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 344ms (Views: 342.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-12 12:45:31 -0500
+
+
+Started GET "/projects/9" for ::1 at 2015-11-12 12:46:28 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mProject Load (0.3ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered projects/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 631ms (Views: 243.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-12 12:46:32 -0500
+Processing by PagesController#home as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (5.4ms)
+  [1m[35mTwoproject Load (0.2ms)[0m  SELECT "twoprojects".* FROM "twoprojects"
+  Rendered twoprojects/index.html.erb (2.3ms)
+  Rendered projects/index.html.erb (1.5ms)
+  Rendered projects/index.html.erb (1.2ms)
+  Rendered pages/_portfolio.html.erb (22.9ms)
+  Rendered pages/home.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 259ms (Views: 257.5ms | ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttachmentImageToTwoprojects (20151113014126)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (27.4ms)[0m  [1mALTER TABLE "twoprojects" ADD "image_file_name" varchar[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "twoprojects" ADD "image_content_type" varchar
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "twoprojects" ADD "image_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "twoprojects" ADD "image_updated_at" datetime
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151113014126"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for ::1 at 2015-11-12 20:43:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (21.0ms)
+  [1m[36mTwoproject Load (0.4ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (4.7ms)
+  Rendered projects/index.html.erb (1.6ms)
+  Rendered projects/index.html.erb (1.3ms)
+  Rendered pages/_portfolio.html.erb (63.5ms)
+  Rendered pages/home.html.erb within layouts/application (494.0ms)
+Completed 200 OK in 1890ms (Views: 1805.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/style.self-829f3ed8e16e75a0ae53e1d7d307d22f59983cae12d875af28f93ae3934543b8.css?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-12 20:43:14 -0500
+
+
+Started GET "/twoprojects/new" for ::1 at 2015-11-12 20:43:28 -0500
+Processing by TwoprojectsController#new as HTML
+  Rendered twoprojects/_form.html.erb (210.5ms)
+  Rendered twoprojects/new.html.erb within layouts/application (254.4ms)
+Completed 200 OK in 547ms (Views: 530.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/twoprojects" for ::1 at 2015-11-12 20:44:57 -0500
+Processing by TwoprojectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"35CNB3aMPTrpn2AftN5VLUJxxvMRyA/d3dNzAHJrDP5bV08DHCUnVtDUR+Oe2UOdgMXQqfnr13z593lg56OApw==", "twoproject"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fe34f1191c8 @tempfile=#<Tempfile:/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/RackMultipart20151112-2075-12frhim.jpg>, @original_filename="Me.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"twoproject[image]\"; filename=\"Me.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"Testing", "Sdescription"=>"Testing", "Ldescription"=>"Testing", "btnName"=>"Testing", "btnUrl"=>"https://github.com/thoughtbot/paperclip"}, "commit"=>"Create Twoproject"}
+Command :: file -b --mime '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/318b2739ddc2c16c97b33c9b04b79f3e20151112-2075-weud3d.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/318b2739ddc2c16c97b33c9b04b79f3e20151112-2075-1v6grko.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/318b2739ddc2c16c97b33c9b04b79f3e20151112-2075-1v6grko.jpg[0]'
+Command :: convert '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/318b2739ddc2c16c97b33c9b04b79f3e20151112-2075-1v6grko.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/e0030500cef5aeb3be3bdf3a58f3beea20151112-2075-egrkw4'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/318b2739ddc2c16c97b33c9b04b79f3e20151112-2075-1v6grko.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/318b2739ddc2c16c97b33c9b04b79f3e20151112-2075-1v6grko.jpg[0]'
+Command :: convert '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/318b2739ddc2c16c97b33c9b04b79f3e20151112-2075-1v6grko.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/e0030500cef5aeb3be3bdf3a58f3beea20151112-2075-13k5reo'
+  [1m[35m (0.4ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/jt/4rglqq_d6mddrmc80n6p1v0w0000gn/T/318b2739ddc2c16c97b33c9b04b79f3e20151112-2075-1vs1g86.jpg'
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "twoprojects" ("title", "Sdescription", "Ldescription", "btnName", "btnUrl", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Testing"], ["Sdescription", "Testing"], ["Ldescription", "Testing"], ["btnName", "Testing"], ["btnUrl", "https://github.com/thoughtbot/paperclip"], ["image_file_name", "Me.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 191971], ["image_updated_at", "2015-11-13 01:44:57.847932"], ["created_at", "2015-11-13 01:44:59.081357"], ["updated_at", "2015-11-13 01:44:59.081357"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/twoprojects/1
+Completed 302 Found in 1284ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/twoprojects/1" for ::1 at 2015-11-12 20:44:59 -0500
+Processing by TwoprojectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTwoproject Load (0.3ms)[0m  [1mSELECT  "twoprojects".* FROM "twoprojects" WHERE "twoprojects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered twoprojects/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 361ms (Views: 264.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-12 20:45:03 -0500
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (4.2ms)
+  [1m[36mTwoproject Load (0.2ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (4.6ms)
+  Rendered projects/index.html.erb (1.2ms)
+  Rendered projects/index.html.erb (1.0ms)
+  Rendered pages/_portfolio.html.erb (35.1ms)
+  Rendered pages/home.html.erb within layouts/application (50.3ms)
+Completed 200 OK in 419ms (Views: 417.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 20:45:04 -0500
+
+
+Started GET "/twoprojects/1" for ::1 at 2015-11-12 20:52:54 -0500
+Processing by TwoprojectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTwoproject Load (0.2ms)[0m  SELECT  "twoprojects".* FROM "twoprojects" WHERE "twoprojects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered twoprojects/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 405ms (Views: 402.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-12 20:53:05 -0500
+Processing by PagesController#home as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered projects/index.html.erb (2.6ms)
+  [1m[35mTwoproject Load (0.2ms)[0m  SELECT "twoprojects".* FROM "twoprojects"
+  Rendered twoprojects/index.html.erb (2.2ms)
+  Rendered projects/index.html.erb (1.3ms)
+  Rendered projects/index.html.erb (1.1ms)
+  Rendered pages/_portfolio.html.erb (44.8ms)
+  Rendered pages/home.html.erb within layouts/application (65.9ms)
+Completed 200 OK in 495ms (Views: 493.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/9" for ::1 at 2015-11-12 20:53:11 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered projects/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 322ms (Views: 319.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-12 20:53:23 -0500
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (2.6ms)
+  [1m[36mTwoproject Load (0.2ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (2.4ms)
+  Rendered projects/index.html.erb (1.3ms)
+  Rendered projects/index.html.erb (2.3ms)
+  Rendered pages/_portfolio.html.erb (51.7ms)
+  Rendered pages/home.html.erb within layouts/application (154.6ms)
+Completed 200 OK in 715ms (Views: 713.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-11-12 20:58:28 -0500
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (1.9ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (24.3ms)
+  [1m[36mTwoproject Load (0.6ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (9.8ms)
+  Rendered projects/index.html.erb (3.7ms)
+  Rendered projects/index.html.erb (3.6ms)
+  Rendered pages/_portfolio.html.erb (76.4ms)
+  Rendered pages/home.html.erb within layouts/application (176.8ms)
+Completed 200 OK in 1147ms (Views: 1135.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/style.self-4a47d85150989d93c6f7e444c209aa64b15732a2f4a87fa5a2986ded1dfca6c8.css?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-12 20:58:30 -0500
+
+
+Started GET "/" for ::1 at 2015-11-12 21:00:50 -0500
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (2.6ms)
+  [1m[36mTwoproject Load (0.3ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (3.2ms)
+  Rendered projects/index.html.erb (1.3ms)
+  Rendered projects/index.html.erb (1.1ms)
+  Rendered pages/_portfolio.html.erb (18.0ms)
+  Rendered pages/home.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 461ms (Views: 459.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/style.self-abc00d8c5cf2c4b3e2b20251a9c9cceb8ac81c882fc06f6dc66ff8b226fecc92.css?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-12 21:00:51 -0500
+
+
+Started GET "/" for ::1 at 2015-11-12 21:14:38 -0500
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (2.7ms)
+  [1m[36mTwoproject Load (0.3ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (2.3ms)
+  Rendered projects/index.html.erb (1.8ms)
+  Rendered projects/index.html.erb (5.1ms)
+  Rendered pages/_portfolio.html.erb (32.3ms)
+  Rendered pages/home.html.erb within layouts/application (47.2ms)
+Completed 200 OK in 515ms (Views: 513.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/style.self-2467987e9b1740cada98d06194aa26a3fef01d2191a45fa8f8558f9be4e9ab8f.css?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-12 21:14:39 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-12 21:14:40 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 21:14:40 -0500
+
+
+Started GET "/" for ::1 at 2015-11-12 21:15:00 -0500
+Processing by PagesController#home as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered projects/index.html.erb (2.9ms)
+  [1m[36mTwoproject Load (0.2ms)[0m  [1mSELECT "twoprojects".* FROM "twoprojects"[0m
+  Rendered twoprojects/index.html.erb (5.0ms)
+  Rendered projects/index.html.erb (2.8ms)
+  Rendered projects/index.html.erb (1.3ms)
+  Rendered pages/_portfolio.html.erb (21.9ms)
+  Rendered pages/home.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 475ms (Views: 472.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap_and_custom.self-7e3893a04f74a80e57568fb5922aa96814aa9186251805a421c58c750446c5ce.css?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/hoverfx.self-fcb6be36841b06a9386a04969c829f7cff7be1026527f39c3f8520c42e26af0b.css?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/style.self-eea45b34765f43bd2a8ce416f2fa67031c91c69a671f83c60496155ea84002fc.css?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/projects.self-98ec61690b219e9174b908aa0110be820adc7530c1cc8d4aba4f7ad5423e20e7.css?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/application.self-98cf8b921d735662ff29abffd752835e67fa08af0765581a78f871251f268794.css?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/masonry/jquery.imagesloaded.min.self-c1d43d59c51c96f38689232f330c6de2816ec55a026ab1276dde2fbdf94b03d7.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/portfolio.self-0ef014a014a715a4ad835bed0b1d2d2209e15f57e9da29af4511b18529999606.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/project.self-4973c337ce99d28adf5ef5ba3818b761a47f4a772a0b1b0b928cb47b56d6160e.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/twoprojects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/Logo-2-2a458ce4c44974a9d1a627f8ea5e540bdf7a7442beb58833530f0691a4dd6734.png" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/Shot6-8c87dcd0e8de819c0e0dbf420e1148c87b7fc763eef149d50c666ffd34d1a5f0.jpg" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/Shot4-edfcb23a36e36810512588a1c2a9b6e67db2558eb306e909be597153f117a8ee.jpg" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/Shot2-5c8f64eac4b29938a8609ab7b28a4c1f357a8e7f866ce43aa656c936d3366f04.jpg" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/Men1.jpg" for ::1 at 2015-11-12 21:15:01 -0500
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2015-11-12 21:15:01 -0500

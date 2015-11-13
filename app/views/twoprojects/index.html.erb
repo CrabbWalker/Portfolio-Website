@@ -1,0 +1,27 @@
+<div id="project" class="transitions-enabled">
+<% @twoprojects.each do |twoproject| %>
+    <div class="box panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <%= twoproject.title %>
+            </div>
+        </div>
+        <%= link_to image_tag(twoproject.image.url(:medium)), twoproject %>
+
+        <div class="panel-body">
+            <p><%= twoproject.Sdescription %></p>
+
+            <% if user_signed_in? %>
+                <%= link_to 'Show', twoproject, :class => "linkpacity" %>
+                <%= link_to 'Edit', edit_twoproject_path(twoproject), :class => "linkpacity" %>
+                <%= link_to 'Destroy', twoproject, method: :delete, data: { confirm: 'Are you sure?' }, :class => "linkpacity" %>
+                <%= link_to 'New Project', new_twoproject_path, :class => "linkpacity" %>
+            <% end %>
+        </div>
+    </div>
+    <% end %>
+</div>
+
+<br>
+
+
